@@ -1,0 +1,147 @@
+.parent-footer{
+    background-color: #232f3e;
+}
+.child{
+    padding: 40px ;
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dashed #394a5e;
+}
+.child2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 1px dashed #394a5e;
+}
+.child2 h4{
+    color: #fff;
+    font-size: 17px;
+    text-align: right;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.child2 input{
+    width: 40%;
+    background: no-repeat;
+    height: 45px;
+    color: #fff;
+    border-radius: 10PX;
+    border-color: white;
+}
+::placeholder{
+    color: white;
+}
+.child2 button{
+    background: #fff;
+    padding: 0 30px;
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #000;
+}
+.child1 h1{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.child1 ul{
+    display: flex;
+    gap: 30px;
+}
+.child1 ul li{
+    list-style: none;
+    color: #d9d9d9;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.child1 ul li a i{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: white;
+
+}
+.child3{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.footer-child-3{
+    display: flex;
+    flex-direction: column;
+}
+.footer-child-3 h3{
+    color: #fff;
+    font-size: 21px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 1rem;
+}
+.footer-child-3 ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+.footer-child-3 ul a{
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+}
+.parent-footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #131a22;
+    padding: 15px 0px;
+    
+}
+.footer-child{
+    color: white;
+   
+}
+.footer-child ul{
+    display: flex;
+    gap: 40px;
+    align-items: center ;
+    list-style-type: none;
+    
+}
+.footer-child ul li i{
+    
+    color: orange;
+    padding: 0px 6px;
+}
+.footer-child ul li a{
+    color: #fff;
+   
+    text-decoration: none;
+    font-size: 14px;
+   
+}
+.footer-child-1 p{
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 13px;
+}
+.footer-child-2 p{
+    color: #d9d9d9;
+    margin-top: 20px;
+    font-size: 13px;
+}

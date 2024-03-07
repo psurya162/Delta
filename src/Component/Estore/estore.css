@@ -1,0 +1,199 @@
+
+
+.Offer-banner img{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.heading-pick h1{
+    margin-left: 65px;
+
+}
+.product-name h1{
+    padding-top: 15px;
+    margin-bottom: 15px;
+    /* border-bottom: 2px solid #000; */
+    font-weight: 600;
+    color: #000;
+}
+sup{
+    top: -.2em;
+    font-weight: 100;
+}
+.product-container{
+    display: flex;
+    /* align-items: center; */
+    margin: 65px;
+    gap: 50px;
+    overflow: hidden;
+}
+.PRODUCT{
+    box-shadow: 0px 5px 10px 0 #e1e0e0;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.product-image img{
+    width: 100%;
+    object-fit: contain;
+}
+.buy-button a{
+    border-radius: 50px;
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: auto;
+    margin-top: 30px;
+    transition: all 0.5s;
+    padding: 6px 15px 6px 6px;
+}
+.buy-button i{
+    width: 29px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 20px;
+}
+.buy-button a i{
+    background: #333;
+    color: #fff;
+    transition: all 0.5s;
+    margin: 0px 3px;
+}
+.buy-button a:hover  {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+
+}
+.buy-button a i:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.section-2-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.icon-container img{
+    width: 50px;
+}
+.section-2-heading h1{
+    text-align: center;
+    
+    font-weight: 600;
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+.section-2{
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    margin-bottom: 80px;
+}
+.section-2-heading{
+    margin-bottom: 80px;
+}
+/* asdasd */
+
+.section-3{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background: #d5d3d3;
+}
+
+.notify h1{
+    text-align: left;
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    top: 11px;
+    padding-left: 40px;
+    z-index: 0;
+}
+.notify h1::after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: -20px;
+    right: 50%;
+    background: #fff;
+    z-index: -1;
+}
+.notify h1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 30px;
+    height: 1px;
+    z-index: 2;
+    background: #000000;
+}
+.book-demo-btn{
+    float: right;
+    padding: 15px 35px;
+    font-size: 14px;
+    
+    transition: all 300ms linear;
+    color: #fff;
+    background: #232f3e;
+    text-decoration: none;
+}
+.tollfree{
+    color: #333;
+    position: relative;
+    top: 30px;
+    left: -20px;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.tollfree a{
+    color: #333;
+    font-weight: 800;
+    text-decoration: none;
+}
+.book-demo-btn2 {
+    position: relative;
+    z-index: 999;
+  }
+  
+  .book-demo-btn2::before {
+    content: "";
+    position: absolute;
+    top: -47px;
+    left: 192px;
+    right: -103px;
+    bottom: -46px;
+    background: #ababab;
+    z-index: -1;
+  }
+  
+  .book-demo-btn span{
+    font-weight: 600;
+  }
+  .book-demo-btn2::after {
+    content: "";
+    position: absolute;
+    left: 190px;
+    width: 5px;
+    height: 35px;
+    background: black;
+    top: 8px;
+
+  }
