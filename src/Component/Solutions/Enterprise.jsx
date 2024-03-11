@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Enterprise = () => {
   return (
     <>
-      <div className="Main-Parent">
-        <div className="banner-content-page">
+      <div className="Main-Parents">
+        <div className="banner-content-pages">
           <span>
             Deltaview <sup>R</sup> Blaze
           </span>
