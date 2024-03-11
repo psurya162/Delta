@@ -20,6 +20,7 @@ import FindPartner from './Component/Partners/FindPartner'
 import PartnerSuccess from './Component/Partners/PartnerSuccess'
 import DeltaViewConnect from './Component/Software/DeltaViewConnect'
 import DeltaViewCanvas from './Component/Software/DeltaViewCanvas'
+import Home from './Component/Home.jsx/Home';
 
 
 
@@ -31,6 +32,7 @@ const App = () => {
         <Navbar />
        
         <Routes>
+          <Route path='/' element={<Home/>}/>
           <Route path='/e-store' element={<Estore />} />
           {/* Routes of Solutions Component */}
           <Route path='/Enterprise' element={<Enterprise/>}/>

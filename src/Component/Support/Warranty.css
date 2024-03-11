@@ -1,0 +1,88 @@
+.Warrant{
+    background-image: url("https://www.deltaview.in/wp-content/uploads/2024/01/warranty-check-1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center center;
+    position: relative;
+    z-index: 5;
+    
+
+}
+.Warrant::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: -1;
+}
+.warrant-content-1 h1{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
+
+}
+.warrant-content-1 p{
+    color: white;
+    font-size: 14px;
+    
+    
+}
+.warrant-content-1{
+    padding-top: 100px;
+}
+.input-group{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+   
+    width: 50%
+}
+.warranty-form .form-control {
+    
+    font-size: 15px;
+}
+.form-control {
+    height: 50px;
+}
+.btn{
+    border-radius: 5px;
+    padding: 0 30px !important;
+    height: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px
+}
+.img-container img{
+    width: 100%;
+}
+.image-content{
+    background-color: #eee;
+}
+.section-adds{
+    padding: 50px 0px;
+}
+.contact-warranty-section{
+    padding: 50px 0px;
+    background-color: #f9f9f9
+}
+.contact-warranty .cont-info {
+    text-align: center;
+}
+.cont-info{
+    text-align: center;
+}
+ .cont-info a {
+    text-decoration: none;
+    color: inherit;
+}
+.cont-info p {
+    font-size: 16px;
+    padding-top: 15px;
+    margin-bottom: 0;
+}

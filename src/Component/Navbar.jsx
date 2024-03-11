@@ -70,7 +70,7 @@ const Navbars = () => {
         style={{ position: "sticky", top: "0", zIndex: "1000" }}
       >
         <Container fluid className="main-section">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand as={Link}  to='/'>
             <img src={logo} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
